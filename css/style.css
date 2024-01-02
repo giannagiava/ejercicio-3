@@ -156,10 +156,11 @@ nav a {
     font-weight: 600;
 }
 
-#contenido-info-precio img[alt="icono más"]{
-    width: 20px;
-    vertical-align: top;
-    margin-top: 14px;
+#contenido-info-precio img[alt="icono visa"],
+img[alt="icono mastercard"],
+img[alt="icono amex"]{
+    width: 30px;
+    cursor: pointer;
 }
 
 #contenedor-añadir-carrito{
@@ -202,12 +203,14 @@ nav a {
     border-radius: 50%;
     background-color: #FFFF;
     border-style: none;
+    cursor: pointer;
 }
-
+#contenedor-añadir-carrito button:last-of-type:hover{
+    background-color:#FFB21A;
+}
 #contenedor-añadir-carrito img[alt="icono favoritos"]{
     width: 20px;
     height: 20px;
-
 }
 
 #section2-main{
